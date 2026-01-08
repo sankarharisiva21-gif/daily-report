@@ -1,4 +1,4 @@
-const API = "https://daily-report-worker.workers.dev";
+const API = "https://daily-report-backend.sankarharisiva21.workers.dev";
 
 async function refresh() {
   await fetch(`${API}/refresh`);
